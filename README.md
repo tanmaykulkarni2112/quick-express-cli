@@ -2,6 +2,17 @@
 
 A simple Node.js CLI tool to quickly generate boilerplate Express.js projects with optional router and controller structure.
 
+npx vs. global installation :
+
+`npx quick-response-cli` : *npx* is a package runner. It checks whether `quick-express-cli` is in your system or not. It downloads the latest version from _npm registry_,runs it and afterwards delete itself.
+You will always have up-to-date version,keeps your system clean and is ideally used for *one time run only*
+
+`npm install -g quick-express-cli` : *global installation*
+It permanently install a specific version of `quick-express-cli` in your system.
+It will always be availble in you system,i.e can run your project without internet connection.
+It will not update itself so it has to be manually updated regurlarly
+
+
 ## Features
 
 - Generate a **Basic Express template**
@@ -11,6 +22,10 @@ A simple Node.js CLI tool to quickly generate boilerplate Express.js projects wi
 ## Quick Start (No install required)
 
 You can run the CLI directly using `npx`:
+
+### Recommended: Using `npx`
+
+This is the simplest way to run the generator. `npx` will download and run the latest version of `quick-express-cli` without installing it globally on your system.
 
 ```bash
 npx quick-express-cli
