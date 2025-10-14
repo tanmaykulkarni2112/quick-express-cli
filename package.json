@@ -1,0 +1,37 @@
+{
+  "name": "quick-express-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI tool to scaffold Express.js applications with optional router and controller structure.",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "scaffold",
+    "cli",
+    "express-generator",
+    "nodejs",
+    "template"
+  ],
+  "author": {
+    "name": "Tanmay Kulkarni",
+    "url": "https://github.com/tanmaykulkarni2112"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "inquirer": "^12.10.0"
+  },
+  "bin": {
+    "quick-express-cli": "./bin/index.js"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ]
+}
