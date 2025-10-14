@@ -91,6 +91,10 @@ to
 
 This ensures that the command `npm start` runs the correct file.
 
+# 🤝 Contributing
+
+We welcome pull requests! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) guide before you start.
+
 ## License
 
 MIT © Tanmay Kulkarni
