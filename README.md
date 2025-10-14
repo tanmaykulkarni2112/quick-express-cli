@@ -1,4 +1,4 @@
-# Express Blueprint
+# quick-express-cli
 
 A simple Node.js CLI tool to quickly generate boilerplate Express.js projects with optional router and controller structure.
 
