@@ -18,6 +18,7 @@ It will not update itself so it has to be manually updated regurlarly
 - Generate a **Basic Express template**
 - Generate an **Express template with Router**
 - Generate an **Express template with Router and Controllers**
+- **TypeScript support** - Generate all templates in TypeScript with proper type annotations
 
 ## Quick Start (No install required)
 
