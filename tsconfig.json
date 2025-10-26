@@ -12,11 +12,12 @@
     "declarationMap": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "rootDir": "./"
+    "rootDir": "./",
+    "allowJs": true
   },
   "include": [
-    "bin/**/*",
-    "**/*.ts"
+    "bin/**/*.js",
+    "bin/**/*.ts"
   ],
   "exclude": [
     "node_modules",
