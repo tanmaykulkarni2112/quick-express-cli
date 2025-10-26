@@ -4,7 +4,7 @@ A simple Node.js CLI tool to quickly generate boilerplate Express.js projects wi
 
 npx vs. global installation :
 
-`npx quick-response-cli` : *npx* is a package runner. It checks whether `quick-express-cli` is in your system or not. It downloads the latest version from _npm registry_,runs it and afterwards delete itself.
+`npx quick-express-cli` : *npx* is a package runner. It checks whether `quick-express-cli` is in your system or not. It downloads the latest version from _npm registry_,runs it and afterwards delete itself.
 You will always have up-to-date version,keeps your system clean and is ideally used for *one time run only*
 
 `npm install -g quick-express-cli` : *global installation*
